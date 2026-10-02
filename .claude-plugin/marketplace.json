@@ -1,0 +1,20 @@
+{
+  "name": "easyaihenry",
+  "description": "Claude Code skills from Henry Chua, tested on camera in Cooked or Cracked.",
+  "owner": {
+    "name": "Henry Chua",
+    "url": "https://github.com/EasyAIHenry"
+  },
+  "plugins": [
+    {
+      "name": "henry",
+      "source": "./plugins/henry",
+      "description": "scroll-craft: turn one real photo of a local business's best work into a scroll-driven website. Ask an image-to-video model for a teardown, play it backwards under the scroll, sync labels to the clip, and land on their real photo.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Henry Chua"
+      },
+      "license": "MIT"
+    }
+  ]
+}

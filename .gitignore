@@ -1,0 +1,20 @@
+# Build output. A scroll build with its clips and screenshots gets large fast,
+# and once a file is committed it stays in history.
+builds/
+scrollcraft/
+lab/
+out/
+dist/
+*.mp4
+*.mov
+*.webm
+
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
