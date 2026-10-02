@@ -9,7 +9,7 @@ switches on, and the last frame is their real photo.
 [![MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
 [![Claude Code skill](https://img.shields.io/badge/Claude%20Code-skill-d97757.svg)](plugins/henry/skills/henry-scroll-craft/SKILL.md)
 
-![A white gaming PC switched on, lit blue, on a dark page with the headline "Switched on."](media/hero.jpg)
+![A white gaming PC powered on, lit blue, on a dark page with the headline "Powered on."](media/hero.jpg)
 
 *Concept built for a Singapore PC shop in Cooked or Cracked Ep6. Not affiliated with the shop.*
 
@@ -25,8 +25,8 @@ switches on, and the last frame is their real photo.
 - **Writes the video prompt for you.** One prompt, one photo, one 8-second clip
   on the video model you already use.
 - **Builds the page** on Nate Herk's scroll engine. The clip plays backwards
-  under the scroll, a label appears for each part on the exact frame it goes in,
-  and the product switches on at the end.
+  under the scroll, a label draws in for each part on the exact frame it goes in,
+  and the product powers on at the end.
 - **Shows their real work.** Their other products, their public facts, and one
   WhatsApp or booking button.
 - **Checks itself.** Screenshots on desktop, phone and reduced motion, and a
@@ -51,7 +51,7 @@ is their real photo. Played backwards, that frame is the last thing the visitor
 sees. Ask the model to build it forwards instead and the last frame is the
 model's guess.
 
-![Four phone screens: the empty case with the headline, the processor going in, the cooler going in, and the PC switched on.](media/phone-frames.jpg)
+![Four phone screens: the opening headline over the empty case, the motherboard and processor going in with their labels, the graphics card going in, and the PC powered on.](media/phone-frames.jpg)
 
 *Concept built for a Singapore PC shop in Cooked or Cracked Ep6. Not affiliated with the shop.*
 
@@ -134,7 +134,7 @@ Built and checked on macOS.
 
 ## Example: a PC shop with no website
 
-![A dark page with a white PC case half built and a label reading "Memory, 32 GB" with a thin line to the part. A counter reads 04 of 08.](media/parts-list.jpg)
+![A white PC case almost built on a dark page, with thin lines from the cooler, the fans and the graphics card to their labels. A counter reads Assembling 7/8.](media/parts-list.jpg)
 
 *Concept built for a Singapore PC shop in Cooked or Cracked Ep6. Not affiliated with the shop.*
 
@@ -150,11 +150,16 @@ shots of their builds, and no website.
 | Total | About 18 minutes from an empty Figma file to a recorded site. |
 
 The first pass looked tacky. One more ask, "make it seamless and premium",
-fixed it: the page colour matched to their photo backdrop, one accent colour,
-Inter Tight with an italic serif, and film grain to tie the AI clip and the
-real photos together.
+fixed most of it: the page colour matched to their photo backdrop, one accent
+colour, and film grain to tie the AI clip and the real photos together.
 
-<img src="media/phone-scroll.webp" width="300" alt="A phone scrolling the site: the empty PC case fills with parts one by one and switches on with blue light.">
+The pictures on this page are from a second design pass, done after the timed
+test and not counted in the 18 minutes: one type family (Geist), the build full
+screen, a thin line from each part to its label, and a light sweep when it
+powers on. The rules are in
+[figma-design.md](plugins/henry/skills/henry-scroll-craft/references/figma-design.md).
+
+<img src="media/phone-scroll.webp" width="300" alt="A phone scrolling the site: the empty PC case fills with parts one by one, each with a label, and powers on with blue light.">
 
 *Concept built for a Singapore PC shop in Cooked or Cracked Ep6. Not affiliated with the shop.*
 
@@ -182,7 +187,7 @@ plugins/henry/skills/henry-scroll-craft/
 ├── references/
 │   ├── local-business-brief.md  the eight questions, picking the hero photo, BRIEF.md template
 │   ├── reverse-teardown.md      the prompt template, settings, three more examples
-│   ├── figma-design.md          the Figma step and the premium pass
+│   ├── figma-design.md          the Figma step and both design passes
 │   ├── page-order.md            the feeling curve and the section order
 │   ├── sync-to-clip.md          labels timed to the clip, the switch-on, the real photo
 │   ├── devices.md               the engine's scroll devices (Nate Herk)

@@ -1,7 +1,7 @@
 {
   "name": "henry",
   "description": "Skills from Henry Chua. Ships scroll-craft: scroll-driven websites for local businesses with great photos and no website, built from a reverse-teardown clip of their own finished-product photo. Adapted from Nate Herk's scroll-craft (MIT).",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Henry Chua"
   },

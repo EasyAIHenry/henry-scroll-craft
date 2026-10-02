@@ -73,3 +73,20 @@ What changed between the two passes:
 
 If the user calls a pass cheap, ask what they are comparing it to, then make
 the changes in this table before trying anything else.
+
+## When the premium pass still looks off
+
+Ep6 needed a second pass after the timed test. The viewer said the fonts and
+the kerning looked bad and the build did not land. This fixed both:
+
+| Premium pass | Second pass |
+|---|---|
+| Inter Tight plus an italic serif word | One family. Geist 600 for headlines, 400 or 500 for text. Geist Mono only for small uppercase labels, 11 to 13 px with 0.14em tracking |
+| Default tracking | Tracking tightens as type grows: about -0.045em at 88 to 120 px, -0.035em at 56 to 64 px, -0.02em at 28 to 40 px, 0 for body text at 17 px. Kerning on |
+| Lines break wherever | `text-wrap: balance` on headlines, phrase breaks, never one word alone on a line. Body text at most 60 characters a line |
+| The clip in a column | The clip fills the screen height, soft edges, a soft light from above, a deep vignette |
+| One label at a time | A 1 px line draws from the part to its label: type in mono over the name. Newest bright, the two before it dimmed, never more than three. On a phone the labels stack under the product, no lines |
+| A plain switch-on | A short burst from the product, one light band across the screen, the page shifts to the product's light colour, then a small "Level complete" over a big two-word line |
+
+Write the time the second pass took separately from the timed build. Do not
+fold it into the headline number.

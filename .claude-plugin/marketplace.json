@@ -10,7 +10,7 @@
       "name": "henry",
       "source": "./plugins/henry",
       "description": "scroll-craft: turn one real photo of a local business's best work into a scroll-driven website. Ask an image-to-video model for a teardown, play it backwards under the scroll, sync labels to the clip, and land on their real photo.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Henry Chua"
       },

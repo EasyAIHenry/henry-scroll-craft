@@ -59,3 +59,10 @@ them.
 The images in `media/` are frames from a concept site built in Cooked or
 Cracked Ep6 for a Singapore PC shop. The product photos in them belong to that
 shop. The concept is not affiliated with the shop.
+
+## Versions
+
+- 0.1.0 (3 October 2026): first release.
+- 0.2.0 (3 October 2026): the second design pass (one type family, full-screen
+  build, line labels, power-on) added to `SKILL.md` and
+  `references/figma-design.md`, and new pictures in `media/`.

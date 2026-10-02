@@ -167,15 +167,22 @@ Code for steps 2 to 4, and how to read the part times off a contact sheet:
 [references/sync-to-clip.md](references/sync-to-clip.md).
 
 **The look.** My first pass looked tacky. A second ask for "seamless and
-premium" fixed it. That pass is now the default:
+premium" fixed most of it, and a later pass fixed the type and the build. Both
+are now the default:
 
 - Page colour sampled from their photo backdrop, so the product sits in the page
   with no visible box. Feather the photo edges with a mask.
 - One accent colour, taken from the product itself.
-- Inter Tight for headings, one italic serif word per headline, Inter for text.
+- One type family: Geist for headlines and text, Geist Mono only for small
+  uppercase labels. Tracking tightens as type grows, and headlines break on
+  phrases. No italic serif word in a sans headline.
+- The build fills the screen. Each label draws a thin line from its part, and
+  never more than three labels show at once.
 - Film grain over everything at about 5% opacity. It ties the AI clip and the
   real photos into one picture.
 - Text beside the product, never on it.
+
+The numbers for both passes are in [references/figma-design.md](references/figma-design.md).
 
 Theme with the six `--sc-*` variables and two fonts (see the template). The
 design floor for spacing, type and contrast is [references/taste.md](references/taste.md).

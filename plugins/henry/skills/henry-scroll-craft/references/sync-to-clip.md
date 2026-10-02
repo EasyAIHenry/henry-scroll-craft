@@ -64,7 +64,7 @@ Ep6, for scale (an 8-second clip plus a 1.6-second hold):
     </ol>
 
     <div class="outro">
-      <h2>Switched <em>on</em>.</h2>
+      <h2>Powered on.</h2>
     </div>
   </div>
 </section>
